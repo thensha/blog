@@ -1,2 +1,2 @@
-# blog
-<a src='https://github.com/thensha/blog/issues'>hhhh</a>
+# 目录
+[JavaScript](https://github.com/thensha/blog/issues)
