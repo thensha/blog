@@ -2,9 +2,10 @@
 
 ## 基本用法：
 
-> 通过Promise构造函数实例化，立即执行（故通常包裹在函数中，便于调用时再执行），内部错误不返回到外部，无法取消
->> 接收一个函数作为参数，函数中有两个参数 resolve 和 reject，对应 promise 对象的两种状态——fulfilled 和 rejected
->> 在 then 方法中接收两个函数作为参数，分别对应 resolve 和 reject指定的回调函数，会在当前页面所有同步脚本执行完成后才执行
+> 通过Promise构造函数实例化，立即执行无法取消（故通常包裹在函数中，便于调用时再执行），且内部错误不返回到外部
+>> 1. 接收一个函数作为参数，函数中有两个参数 resolve 和 reject，对应 promise 对象的两种状态——fulfilled 和 rejected，
+>> (一旦从pending过度到上面两种状态，即称为已定型resolved，本文中所有 resolved 都指的是fulfilled状态)
+>> 2. 在 then 方法中接收两个函数作为参数，分别对应 resolve 和 reject指定的回调函数，会在当前页面所有同步脚本执行完成后才执行
 
 ```javascript
 function test(){
