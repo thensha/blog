@@ -32,4 +32,13 @@
 
 [网址链接](http://www.404blank.cn/)
 
->参考地址：https://coding.net/help/doc/project/markdown.html
+
+表格：
+
+| 左对齐标题 | 右对齐标题 | 居中对齐标题 |
+| :------| ------: | :------: |
+| 短文本 | 中等文本 | 稍微长一点的文本 |
+| 稍微长一点的文本 | 短文本 | 中等文本 |
+
+
+    参考地址：https://coding.net/help/doc/project/markdown.html
