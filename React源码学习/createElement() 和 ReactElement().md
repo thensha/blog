@@ -1,4 +1,4 @@
-#createElement() 和 ReactElement()
+# createElement() 和 ReactElement()
 
 > 例: jsx转js(Babel)
 
